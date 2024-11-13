@@ -2,10 +2,10 @@ inputanBb = 0
 inputanTb = 0
 
 
-inputanBb = int(input('Masukkan Berat Badan (Kg): '))
-inputanTb = int(input('Masukkan Tinggi Badan (M): '))
+inputanBb = float(input('Masukkan Berat Badan (Kg): '))
+inputanTb = float(input('Masukkan Tinggi Badan (M): '))
 
-hasilTimbang = inputanBb // inputanTb
+hasilTimbang = inputanBb % inputanTb
 
 if hasilTimbang < 18.5:
     tipe = hasilTimbang < 18.5
